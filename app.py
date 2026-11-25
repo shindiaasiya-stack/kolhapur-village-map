@@ -14,8 +14,8 @@ st.set_page_config(
 st.title("Kolhapur Village Infrastructure Map")
 st.subheader("Village-wise Infrastructure Accessibility")
 
-CSV_FILE = "Village Level Infrastructure all maharashtra data.csv"
-ZIP_FILE = "Kolhapur_Village_Boundaries.geojson""
+CSV_FILE = "Kolhapur_Village_Infrastructure.csv"
+ZIP_FILE = "Kolhapur_Village_Boundaries.geojson"
 
 @st.cache_data
 def load_map():
